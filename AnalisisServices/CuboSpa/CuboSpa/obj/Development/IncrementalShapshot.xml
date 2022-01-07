@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CuboSpa</Database>
+    <Server>LAPTOP-NCA929MA</Server>
+    <ConnectionString>Data Source=LAPTOP-NCA929MA;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Wz/0e4R1q65JB0Vi+G8md+NytAo=06/01/2022 19:12:4806/01/2022 19:12:48</TimeStamp>
+        <ID>
+          <String>DM Spa</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>iHpdE7vOh91Oh+VJCSWp6gjE8Xs=06/01/2022 19:13:2506/01/2022 19:13:24</TimeStamp>
+        <ID>
+          <String>DM Spa</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nfF3P+KH7fZjEvZxVB7Gt/d4aao=06/01/2022 19:15:1706/01/2022 19:13:44</TimeStamp>
+        <ID>
+          <String>Dm Servicios</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y2aMAz7nryNMCNekCwwEmBYRCdo=06/01/2022 19:16:3706/01/2022 19:13:44</TimeStamp>
+        <ID>
+          <String>DM Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UGaLvDoOe2Ip/LKxdjqcNpR1UdI=06/01/2022 19:17:0406/01/2022 19:13:44</TimeStamp>
+        <ID>
+          <String>Dm Trabajador</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>syiGhk1eMSzLQlBA6MpncLmk7IQ=06/01/2022 19:16:5906/01/2022 19:13:44</TimeStamp>
+        <ID>
+          <String>DM Prod</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9auAaH3fshy0KycRjL2SF4xonac=06/01/2022 19:16:2106/01/2022 19:13:44</TimeStamp>
+        <ID>
+          <String>Dm Fech</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>UbO6GPdp8/7lBquPMG5DKNWQVuE=06/01/2022 19:16:5906/01/2022 19:13:44zIY71IYdhs3gAzfEoktwCbp4eR8=06/01/2022 19:13:4406/01/2022 19:13:44</TimeStamp>
+        <ID>
+          <String>DM Spa</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>sdEh5pt8rzAsYVjWnvxdHiODzNw=06/01/2022 19:11:1506/01/2022 19:11:15</TimeStamp>
+      <ID>
+        <String>CuboSpa</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-01-07T00:18:24.653333Z</LastDeployed>
+</DeploymentSnapshot>
